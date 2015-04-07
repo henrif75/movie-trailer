@@ -67,7 +67,7 @@ def init_movies(list_of_movies):
     (e.g. load from a text file) with minimum impact in the main code 
     """
     movies = []
-    for movie_entry in MOVIES_LIST:
+    for movie_entry in list_of_movies:
         movie = Movie(movie_entry[0],
                       movie_entry[1],
                       movie_entry[2],
